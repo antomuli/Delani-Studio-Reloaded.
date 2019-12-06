@@ -1,3 +1,7 @@
+*{
+  align-items: center;
+  text-align: center;
+}
 .head{ 
   background-image: url(../img/backgrounds/h_img\ .jpg);
   background-size: cover;
@@ -21,37 +25,7 @@
 }
 
 
-
-
-
-
-
-
-
-/* Keba:
-home{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:100vh;
-  background-image: url("../images/assets/backgrounds/h_img.jpg");
-  display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color: white;
-
-}
-.home h1{
-  font-size: 50px;
-}
-.home h4{
-  font-size: 30px;
-}
-h4{
-  text-align: center;    
-}
-.mouse{
+mouse{
   margin-top: 200px;
   transition: 2s;
   
@@ -73,6 +47,7 @@ p{
   color: white;
   padding: 50px;
 
+  
 
 }
 #services{
@@ -80,7 +55,7 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
-  background-image: url("../images/assets/backgrounds/s_image.jpg");
+  background-image: url("../img/backgrounds/s_image.jpg");
 }
 
 
@@ -145,9 +120,9 @@ p{
 #footer{
   text-align: center;
   padding: 5vh;
-} */
+}
 
-/* #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
 display:none;
 background-color: white;
 opacity:0.8;
@@ -174,7 +149,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
-  background-image: url("../images/assets/backgrounds/c_image.jpg");
+  background-image: url("../img/backgrounds/c_image.jpg");
 }
 .contacts h1{
   text-align: center;
@@ -182,8 +157,8 @@ text-align: center;
   color:white;
   margin-top: 5%;
 
-} */
-/* #text {
+}
+#text {
 width: 160px;
 height: 160px;
 background-color: #ffffff;
@@ -214,4 +189,15 @@ text-align: center;
 }
 .container-2{
   text-align: center;
-} */ 
+}
+
+
+
+
+
+
+
+
+
+
+
