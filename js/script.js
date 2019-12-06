@@ -1,4 +1,4 @@
-keba:
+//toggle the design icon
 $(document).ready(function () {
   $('#toggle').click(function () {
       $('#p1').show();
