@@ -78,8 +78,7 @@ p{
   margin-top: 3%;
 }
 .icons img{
-  /* margin-top: 20%; */
-  /* margin-left: 40%; */
+  margin-top: 8%;
 }
 
 #aboutus span{
@@ -103,7 +102,9 @@ p{
 }
 
 #portfolio h1{
-  font-size: 50px;
+  font-size: 32px;
+  margin-bottom: 1%;
+  margin-top: 2.5%;
 }
 
 #toggle3{
@@ -115,6 +116,9 @@ p{
 
 #portfh{
   margin-bottom: 3    Q1vh;
+}
+#submit{
+  text-align: center;
 }
 #footer{
   text-align: center;
