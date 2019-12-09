@@ -20,9 +20,7 @@
 .head h1:first-of-type{
   margin-bottom: 7%;
 }
-#mouse{
-  margin-bottom: -500px;
-}
+
 
 
 #aboutus h2{
@@ -54,36 +52,19 @@ p{
   font-size: 22px;
 }
 .icons h2{
-  font-size: 15px;
+  font-size: 10px;
   margin-top: 3.5%;
 }
 
-#p1{
-   color:black;
+#p-design{
+  display: none;
 }
-#p2{
-  color: black;
+#p-development{
+  display: none;
 }
-#p3{
-  color: black;
+#p-product{
+  display: none;
 }
-
-#portfolio h1{
-  font-size: 32px;
-  margin-bottom: 1%;
-  margin-top: 2.5%;
-}
-
-#toggle3{
-  margin-top: -5%;
-}
-.portf{
-  margin-bottom: 5vh;
-}
-
-/* #portfh{
-  margin-bottom: 3    Q1vh;
-} */
 #submit{
   text-align: center;
 }
@@ -91,28 +72,6 @@ p{
   text-align: center;
   padding: 5vh;
 }
-
-/* #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-display:none;
-background-color: white;
-opacity:0.8;
-
-font-size: 30px;
-height: 120%;
-width: 130%;
-padding-top: 40%;
-padding-right: 15%;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-30%, -40%);
-text-align: center;
-} */
-
-/* #desh,#devh,#prodh{
-  display:none;
-  font-size: 2vh;
-} */
 
 .contacts{
   background-position: center;
@@ -141,15 +100,25 @@ display: none;
 color: white;
 font-size: 28px;
 }
-.images{
-  padding:1.5%;
-  justify-content: space-between;
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
+.text{
+  text-align: center;
+  display:none;
+  margin: -50% 25%;
+  color: white;
 }
-input,
-textarea {
+
+::placeholder {
+  color: white;
+}
+
+#form-for-user {
+  width: 60%;
+  margin: auto;
+}
+
+
+
+input,textarea {
 color: white;
 }
 #Name,
@@ -157,6 +126,8 @@ color: white;
 #Message {
   color: white;
   background-color: #ffffff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .footer {
 align-items: center;
@@ -167,9 +138,117 @@ text-align: center;
   text-align: center;
 }
 
+.col-md-3{
+  width: 100px;
+  margin-top: 10px;
+}
+
+/* Hover Box Comes Here */
 
 
+.hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox_background {
+  width: 400px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+.hvrbox .hvrbox-layer_image {
+  padding: 0;
+  background: none;
+}
 
+
+.hvrbox .hvrbox-layer_slideleft {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideleft,
+.hvrbox.active .hvrbox-layer_slideleft {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.hvrbox .hvrbox-layer_scale {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+.hvrbox:hover .hvrbox-layer_scale,
+.hvrbox.active .hvrbox-layer_scale {
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
 
 
 
