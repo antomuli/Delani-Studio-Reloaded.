@@ -81,9 +81,9 @@ p{
   margin-bottom: 5vh;
 }
 
-#portfh{
+/* #portfh{
   margin-bottom: 3    Q1vh;
-}
+} */
 #submit{
   text-align: center;
 }
@@ -92,7 +92,7 @@ p{
   padding: 5vh;
 }
 
-#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+/* #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
 display:none;
 background-color: white;
 opacity:0.8;
@@ -107,12 +107,12 @@ top: 50%;
 left: 50%;
 transform: translate(-30%, -40%);
 text-align: center;
-}
+} */
 
-#desh,#devh,#prodh{
+/* #desh,#devh,#prodh{
   display:none;
   font-size: 2vh;
-}
+} */
 
 .contacts{
   background-position: center;
@@ -139,10 +139,14 @@ top: 2em;
 left: 3em;
 display: none;
 color: white;
-font-size: 30px;
+font-size: 28px;
 }
 .images{
   padding:1.5%;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 input,
 textarea {

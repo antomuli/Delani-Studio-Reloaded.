@@ -40,6 +40,7 @@ $(document).ready(function () {
       $('#p3').hide();
   });
 
+ 
 //hovering effect
 $(".four").hover(function () {
   $("#overlay4").show();
