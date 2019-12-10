@@ -1,6 +1,7 @@
 *{
   align-items: center;
   text-align: center;
+  font-family: 'Acme', sans-serif;
 }
 .head{ 
   background-image: url(../img/backgrounds/h_img\ .jpg);
@@ -98,7 +99,7 @@ top: 2em;
 left: 3em;
 display: none;
 color: white;
-font-size: 28px;
+font-size: 32px;
 }
 .text{
   text-align: center;
