@@ -22,17 +22,14 @@ A ***web application** that illustrates what projects we do as a design studio.C
 3.In antomuli's repositories,git clone the Delani Studio Reloaded repository into your you -local repository- which is your machine(computer) /git clone the following link: https://github.com/antomuli/Delani-Studio-Reloaded..git
 
 ## BDD 
--------------------------------
-|Behavior  Driven  Development|
--------------------------------
-Behavior 	Input 	Output 
----------|------|--------|
-Enter your name	| ['Anthony'] |	name = 'calvince'|
----------------------------------------------------
-Enter Email && Message |	['Email','Message'] |	Email && Message|
------------------------------------------------------------------
-Submit	Email && Message |	Thank you Anthony, details received|
------------------------------------------------------------------
+
+Behavior  Driven  Development
+
+|  Behaviour | Input  |  Output |   
+|---|---|---|---|---|
+|  Enter your name |   ['Anthony']| name ='Anthony   |   
+|   Enter Email && Message |  ['Email','Message']  |  	Email && Message |   
+|  Submit	Email && Message  |  Thank you Anthony, details received |  
 
 
 ## project screenshot
@@ -40,19 +37,19 @@ Delani-studio is a web application that illustrates what projects we do as a des
 
 ![landing-page](img/Landing-Page.jpg)
 
-***EVERY GREAT DESIGN BEGINS WITH AN EVEN BETTER STORY***
+***EVERY GREAT DESIGN BEGINS WITH AN EVEN BETTER STORY.***
 
 ![Aboutus](/img/Aboutus.jpg)
 
-***DESIGN IS INTELLIGENCE MADE VISIBLE***.
+***DESIGN IS INTELLIGENCE MADE VISIBLE!***.
 
 ![What-we-do](/img/What-we-do.jpg)
 
-***YOU CAN'T USE UP CREATIVITY. THE MORE YOU USE THE MORE YOU HAVE***
+***YOU CAN'T USE UP CREATIVITY. THE MORE YOU USE THE MORE YOU HAVE.***
 
 ![Contact](/img/Contact.jpg)
 
-***BECAUSE YOUR EYES SAID YOU WERE FEELING IT TOO***
+***BECAUSE YOUR EYES SAID YOU WERE FEELING IT TOO!***
 
 
 ### Live Link to Delani Studio Reloaded
