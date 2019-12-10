@@ -8,7 +8,7 @@ Email: mulianthony561@gmail.com
 
 FB: Anto De Sparta Neyo.
 
-Tel:*-+254796577998.-*
+Tel:*+254796577998.*
 
 ## Project Description.
 A ***web application** that illustrates what projects we do as a design studio.Come round and discover your talent and do what you heart.
@@ -24,7 +24,9 @@ A ***web application** that illustrates what projects we do as a design studio.C
 ## BDD 
 
 Behavior  Driven  Development
+
 |  Behaviour | Input  |  Output | 
+
 |---------------------|--------------|---------------------------------------|
 
 |  Enter your name |   ['Anthony']  | name ='Anthony   | 
