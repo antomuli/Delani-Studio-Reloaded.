@@ -26,7 +26,7 @@ A ***web application** that illustrates what projects we do as a design studio.C
 Behavior  Driven  Development
 
 |  Behaviour | Input  |  Output |   
-|---|---|---|---|---|
+
 |  Enter your name |   ['Anthony']| name ='Anthony   |   
 |   Enter Email && Message |  ['Email','Message']  |  	Email && Message |   
 |  Submit	Email && Message  |  Thank you Anthony, details received |  
