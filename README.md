@@ -57,7 +57,7 @@ Delani-studio is a web application that illustrates what projects we do as a des
 
 
 ### Live Link to Delani Studio Reloaded
-The following is the live link to the project "Delani Studio Reloaded": This site was built using github pages: 
+The following is the live link to the project "Delani Studio Reloaded": This site was built using github pages:  https://antomuli.github.io/Delani-Studio-Reloaded./
 
 **The following include the list of technologies used: 
 
