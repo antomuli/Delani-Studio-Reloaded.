@@ -24,11 +24,13 @@ A ***web application** that illustrates what projects we do as a design studio.C
 ## BDD 
 
 Behavior  Driven  Development
+|  Behaviour | Input  |  Output | 
+|---------------------|--------------|---------------------------------------|
 
-|  Behaviour | Input  |  Output |   
+|  Enter your name |   ['Anthony']  | name ='Anthony   | 
 
-|  Enter your name |   ['Anthony']| name ='Anthony   |   
-|   Enter Email && Message |  ['Email','Message']  |  	Email && Message |   
+|   Enter Email && Message |  ['Email','Message']  |  	Email && Message |  
+
 |  Submit	Email && Message  |  Thank you Anthony, details received |  
 
 
