@@ -29,11 +29,13 @@ Behavior  Driven  Development
 |---------------------|--------------|---------------------------------------|
 
 |  Enter your name |   ['Anthony']  | name ='Anthony   | 
+|-------------------|----------------|-----------------|
 
 |   Enter Email && Message |  ['Email','Message']  |  	Email && Message |  
+|---------------------------|-----------------------|---------------------|
 
 |  Submit	Email && Message  |  Thank you Anthony, details received |  
-
+|---------------------------|---------------------------------------|
 
 ## project screenshot
 Delani-studio is a web application that illustrates what projects we do as a design studio. It includes a portfolio of some of our projects, and a detailed description of what we do from inception to completion of the project. ... The application also includes a form that allows users to enter their names and emails.Below is the blueprint of the website:
