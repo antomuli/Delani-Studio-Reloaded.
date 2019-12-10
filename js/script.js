@@ -11,7 +11,6 @@ $(document).ready(function () {
     $("#toggle-design-image").show();
   });
 
-  //second image
   $("#toggle-development-image").click(function () {
     $("#toggle-development-image").hide();
     $("#p-development").toggle();
@@ -23,7 +22,6 @@ $(document).ready(function () {
     $("#toggle-development-image").show();
   });
 
-  //third image
   $("#toggle-product-image").click(function () {
     $("#toggle-product-image").hide();
     $("#p-product").toggle();
@@ -39,8 +37,6 @@ $(document).ready(function () {
     $('#text4').fadeToggle();
   });
 
-
-  //Hovering effect
   $(function () {
     var mobileScreenTreshold = 1024;
     $(".hvrbox").click(function (e) {
@@ -59,7 +55,6 @@ $(document).ready(function () {
 
 });
 
-// //code to submit and display user name from form
 $(document).ready(function () {
   $('#submit').click(function () {
     var Name = $('#Name').val();
