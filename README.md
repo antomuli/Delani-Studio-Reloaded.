@@ -78,6 +78,9 @@ The following is the live link to the project "Delani Studio Reloaded": This sit
 
 2.The *API* to the mailchimp is undefined.This means that I may be unable to receive your feedback via the contact session unless contacted through my personal details as mentioned above.
 
+### CODEBEAT.
+[![codebeat badge](https://codebeat.co/badges/17e6a180-2c64-471a-856c-234fa0a4b5a4)](https://codebeat.co/projects/github-com-antomuli-delani-studio-reloaded-master)
+
 ### LICENSE AND COPY RIGHT INFO.
 MIT License
  Copyright (c) 2019 Moringa School-Anto
