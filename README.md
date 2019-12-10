@@ -22,20 +22,37 @@ A ***web application** that illustrates what projects we do as a design studio.C
 3.In antomuli's repositories,git clone the Delani Studio Reloaded repository into your you -local repository- which is your machine(computer) /git clone the following link: https://github.com/antomuli/Delani-Studio-Reloaded..git
 
 ## BDD 
-<!-- Behavior  Driven  Development
-Behavior	Input	Output
-Enter your name	['Calvince']	name = 'calvince'
-Enter Email && Message	['Email','Message']	Email && Message
-Submit	Email && Message	Thank you Calvince, details received
-Sum of two values<= third value	[1,2,5]	No triangle -->
+-------------------------------
+|Behavior  Driven  Development|
+-------------------------------
+Behavior 	Input 	Output 
+---------|------|--------|
+Enter your name	| ['Anthony'] |	name = 'calvince'|
+---------------------------------------------------
+Enter Email && Message |	['Email','Message'] |	Email && Message|
+-----------------------------------------------------------------
+Submit	Email && Message |	Thank you Anthony, details received|
+-----------------------------------------------------------------
+
 
 ## project screenshot
 Delani-studio is a web application that illustrates what projects we do as a design studio. It includes a portfolio of some of our projects, and a detailed description of what we do from inception to completion of the project. ... The application also includes a form that allows users to enter their names and emails.Below is the blueprint of the website:
 
-[!landing-page]img/README.md BDD/screenshot1.png
+![landing-page](img/Landing-Page.jpg)
 
-Curious! Curiosity has its own reason for exciting..Find out what's yours!
+***EVERY GREAT DESIGN BEGINS WITH AN EVEN BETTER STORY***
 
+![Aboutus](/img/Aboutus.jpg)
+
+***DESIGN IS INTELLIGENCE MADE VISIBLE***.
+
+![What-we-do](/img/What-we-do.jpg)
+
+***YOU CAN'T USE UP CREATIVITY. THE MORE YOU USE THE MORE YOU HAVE***
+
+![Contact](/img/Contact.jpg)
+
+***BECAUSE YOUR EYES SAID YOU WERE FEELING IT TOO***
 
 
 ### Live Link to Delani Studio Reloaded
